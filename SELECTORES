@@ -1,0 +1,21 @@
+SELECTORES
+ universal>>> *{} se añade stilo a todos los elementos del html
+ etiqueta>>> nombre de la etiqueta{}
+ clase>>>>>  nombre de la .nombreclase{} en html class="nombreclase"
+ id >>>>>>>  nombre del  #nombreid{} en html id="nombreid"
+ descendentes>>> p span{}
+ hijos >>>>      p>span{}
+ adyacente(hermanos) p+p{}
+ adyacente general   p~p{}
+ pseudoclases   :link{}  (etiqueta a)
+                :visited{} (etiqyeta a)
+                :hover{} (etiqueta a y div)
+                :active{} (etiqueta a)
+                :first-child{} 
+                :last-child{}
+ atributo    img[alt]{width:"50%"} atributo
+ atributo    img[alt="imagen bonita"]{width:"50%"} atributo y valor
+ atributo    img[alt~="bonita"]{width:"50%"} atributo y valor exacto o subvalor separado por espacios
+ atributo    html[lang|="es-ES"]{color:red;}atributo y valor completo o primer valor antes del "-"
+ atributo    img[alt*="ima"]{width:"50%"} atributo y subvalor dentro del valor
+ */
