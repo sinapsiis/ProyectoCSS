@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+div{
+    width:100px;
+    height:20px;
+    background-color:aqua;
+    /* margenes con margin para todos los margenes*/
+    margin: 5px;
+    /* margenes independientes para cada margen: arriba-derecha, abajo-zuquierda*/
+    margin-top: 5px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    /*modo shorthans con cuantro valores en el orden arriba derecha, abajo izquierda*/
+
+    margin: 5px 7px 10px 2px;
+    /*shorthand de dos valores el primero da el valor de margenes arriba abajo y el segundo a margenes derecha izquierda */
+
+    margin: 3px 6px;
+    text-align: center;
+   
+    padding-top: 10px;
+}
+
+div:hover{
+
+    background-color: rgb(68,143,143);
+    color: azure;
+    font-family: Algerian;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+ul{
+
+    list-style-type:none;
+    list-style: none inside none;
+    /*Podemos utilizar las formas shorthand que es una abreviatura en una sola propiedad abarcando varias propiedades. Es necesario siempre utilizar el orden predefinido de cada propiedad.
+    La primera propiedad es: list-style-type
+    La segunda propiedad es: list-style-position
+    La tercera propiedad es: list-style image*/
+    border: 10px solid black;
+
+
+}
+
+a:link{
+
+    color: rgb(68,143,143);
+
+}
+
+a:active{
+
+    color: rgb(68,143,143);
+}
+
+a:hover{
+
+    color: rgb(68,143,143);
+}
+
+a:visited{
+
+    color: rgb(68,143,143);
+}
+
+a:hover{
+    color: rgb(68,143,143);
+}
+
+#activo{
+    background-color: rgb(68,143,143);
+    color: azure;
+    font-family: Algerian;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+p: first-child {
+    color:red;
+}
